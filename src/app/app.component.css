@@ -1,0 +1,40 @@
+.profile-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.profile-card:hover {
+    transform: translateY(-3px);
+}
+
+.profile-card h2 {
+    color: #333;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 5px;
+    margin-top: 0;
+}
+
+.detail-list p {
+    margin: 5px 0;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.frontend-profile {
+    border-left: 5px solid #007bff;
+    background-color: #e9f7ff;
+}
+
+.backend-profile {
+    border-left: 5px solid #28a745;
+    background-color: #eafbea;
+}
+
+hr {
+    border: none;
+    border-top: 1px dashed #ccc;
+    margin: 30px 0;
+}
